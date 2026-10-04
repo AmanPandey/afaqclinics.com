@@ -1,0 +1,20 @@
+# Homepage: the site has no index.html, so serve home.html at "/"
+DirectoryIndex home.html index.html
+
+Options -Indexes
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# /index.html and /home -> canonical root (only for browser requests, so the
+# DirectoryIndex lookup of home.html does not loop)
+RewriteCond %{THE_REQUEST} \s/(index\.html|home|home\.html)[\s?]
+RewriteRule ^(index\.html|home|home\.html)$ / [R=301,L]
+
+# Clean URLs: /about -> about.html (old site links and Google results use these)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]
+</IfModule>

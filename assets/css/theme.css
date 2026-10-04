@@ -1,0 +1,107 @@
+/* Color Palette */
+:root {
+    --primary-color: #d71920; /* Red */
+    --text-color: #000033;    /* Dark Blue */
+    --white-color: #ffffff;   /* White */
+    --black-color: #000000;   /* Black */
+
+    /* Additional related colors */
+    --secondary-color: #f44336; /* Light Red */
+    --grey-color: #cccccc;      /* Light Grey */
+    --dark-grey-color: #333333; /* Dark Grey */
+}
+
+/* General Body Styling */
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+body {
+    background-image: url('../img/body_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: var(--text-color);
+    font-family: 'Helvetica', sans-serif;
+    font-weight: normal;
+
+    overflow: visible; 
+}
+
+/* Headers */
+h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    font-family: 'Helvetica-Bold', sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    color: var(--primary-color);
+    font-family: 'Helvetica-Black', sans-serif;
+    font-weight: 900;
+}
+
+/* Links */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+}
+
+/* Background and Borders */
+.background-primary {
+    background-color: var(--primary-color);
+}
+
+.border-primary {
+    border-color: var(--primary-color);
+}
+
+/* Text colors */
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+.text-white {
+    color: var(--white-color) !important;
+}
+
+.text-black {
+    color: var(--black-color) !important;
+}
+
+/* Additional Typography Styles */
+.bold {
+    font-family: 'Helvetica-Bold', sans-serif;
+}
+
+.light {
+    font-family: 'Helvetica-Light', sans-serif;
+}
+
+.italic {
+    font-family: 'Helvetica-Oblique', sans-serif;
+    font-style: italic;
+}
+
+/* Add more classes as needed for the specific fonts and styles */
+

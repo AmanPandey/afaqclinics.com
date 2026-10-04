@@ -1,0 +1,2725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+<style>
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+</style>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta name="description" content="Afaq Clinics is a network of multi-specialty clinics and diagnostic centers offering comprehensive healthcare services.">
+<meta name="keywords" content="Afaq Clinics, Family Healthcare, Multi-Specialty Clinic, Diagnostics">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Afaq Clinics - Trusted Family Healthcare">
+<meta property="og:description" content="Afaq Clinics provides comprehensive family healthcare and diagnostic services across Hyderabad.">
+<meta property="og:image" content="assets/img/default_og_img.html">
+<meta property="og:url" content="home.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Afaq Clinics">
+<meta name="twitter:title" content="Afaq Clinics - Trusted Family Healthcare">
+<meta name="twitter:description" content="Afaq Clinics provides comprehensive family healthcare and diagnostic services across Hyderabad.">
+<meta name="twitter:image" content="assets/img/default_og_img.html">
+<meta name="canonical" content="home.html">
+
+<title>Afaq Clinics - Comprehensive Family Healthcare</title>
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon-180x180.png">
+<link rel="apple-touch-icon" sizes="167x167" href="assets/img/apple-touch-icon-167x167.png">
+<link rel="apple-touch-icon" sizes="152x152" href="assets/img/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="assets/img/apple-touch-icon-120x120.png">
+<link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
+
+
+<!-- Bootstrap 5.3.3 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+
+<!-- FontAwesome 4.7.0 (as previously used) -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- Custom CSS (Optional) -->
+<link href="assets/css/common.css" rel="stylesheet">
+
+<!-- jQuery (Optional: Only if needed in head, otherwise include before the body ends) -->
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+
+<link href="assets/css/font.css" rel="stylesheet">
+<link href="assets/css/theme.css" rel="stylesheet">
+
+
+<!-- Structured Data JSON-LD -->
+<script type="application/ld+json">
+    </script>
+</head>
+ 
+<body>
+
+    <!-- Navbar -->
+    <!-- <style>
+    /* Top Bar Styling */
+    .top-bar {
+        background-color: #d71920;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 30px;
+        align-items: center;
+        position: relative;
+        z-index: 9999; 
+        opacity: 1;
+    }
+
+    .contact-info {
+        display: flex;
+        gap: 20px;
+    }
+
+    .contact-info a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Helvetica', sans-serif;
+        font-size: 14px;
+    }
+
+    .contact-info a i {
+        margin-right: 5px;
+    }
+
+    .appointment .btn-appointment {
+        background-color: white;
+        color: #d71920;
+        padding: 8px 15px;
+        border-radius: 20px;
+        font-family: 'Helvetica-Bold', sans-serif;
+        text-decoration: none;
+        border: 2px solid black;
+        white-space: nowrap;
+    }
+
+    .appointment .btn-appointment i {
+        margin-right: 5px;
+    }
+
+    .social-icons {
+        display: flex;
+        gap: 10px;
+    }
+
+    .social-icons a {
+        color: white;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    /* Hide email and social icons on mobile */
+    @media (max-width: 768px) {
+        .social-icons {
+            display: none;
+        }
+
+        .contact-info a:first-child {
+            display: none;
+        }
+
+        .contact-info .phone-number {
+            display: none; /* Hide full phone number on mobile */
+        }
+
+        .contact-info .mobile-icons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .appointment {
+            margin-left: auto;
+        }
+    }
+
+    .mobile-icons {
+        display: none; /* Hide mobile icons by default */
+    }
+    .mobile-icons a {
+        font-size: 30px; /* Increase icon size */
+        color: white;
+        text-decoration: none;
+    }
+
+    /* Main Navigation Styling */
+    .main-nav {
+        background-color: white;
+        padding: 20px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 3px solid #d71920;
+        position: relative;
+        z-index: 9999; /* Ensure navigation stays on top */
+    }
+
+    .logo img {
+        max-height: 50px;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .menu ul {
+        display: flex;
+        gap: 20px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu ul li {
+        position: relative;
+    }
+
+    .menu ul li a {
+        text-decoration: none;
+        color: #000033;
+        font-family: 'Helvetica-Bold', sans-serif;
+        font-size: 14px;
+        padding: 5px 10px;
+        display: block;
+        transition: color 0.3s, border-bottom 0.3s;
+    }
+
+    .menu ul li a:hover {
+        color: #d71920;
+        border-bottom: 2px solid #d71920;
+    }
+
+    .menu ul li.active a {
+        font-weight: 700; /* Increase font weight for active item */
+        color: #d71920; /* Change color for active item */
+        border-bottom: 2px solid #d71920;
+    }
+
+    /* Mobile Menu */
+    .menu-toggle {
+        display: none;
+        font-size: 24px;
+        color: #d71920;
+        cursor: pointer;
+    }
+
+    .menu ul {
+        flex-direction: row;
+    }
+
+    @media (max-width: 768px) {
+        .menu {
+            display: none;
+            flex-direction: column;
+            width: 100%;
+            background-color: white;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            padding: 20px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 9999; /* Ensure dropdown stays on top */
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+        }
+
+        .menu ul {
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .menu ul li a {
+            padding: 10px;
+            border-bottom: none;
+        }
+
+        .menu ul li a:hover {
+            border-bottom: none;
+            background-color: #f0f0f0;
+        }
+
+        .menu-toggle {
+            display: block;
+        }
+
+        .menu.active {
+            display: flex;
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+    }
+</style>
+
+<header>
+    <div class="top-bar">
+        <div class="contact-info">
+            <a href="mailto:info@afaqclinics.com"><i class="fa fa-envelope"></i> info@afaqclinics.com</a>
+            <span class="phone-number"><a href="tel:+919700948434"><i class="fa fa-phone"></i> (+91) 9700948434</a></span>
+            <div class="mobile-icons">
+                <a href="tel:+919700948434"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                <a href="https://wa.me/919700948434"><i class="fa fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="appointment">
+            <a href="book_appointment" class="btn-appointment"><i class="fa fa-calendar"></i> Book Appointment</a>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-pinterest"></i></a>
+            <a href="#"><i class="fa fa-rss"></i></a>
+        </div>
+    </div>
+    <div class="main-nav">
+        <div class="logo">
+            <a href="#"><img src="assets/img/logo_with_tagline.png" alt="AFAQ Clinics"></a>
+        </div>
+        <div class="menu-toggle">
+            <i class="fa fa-bars"></i>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li class=""><a href="/home">HOME</a></li>
+                <li class=""><a href="/about">ABOUT</a></li>
+                <li class=""><a href="/departments">DEPARTMENTS</a></li>
+                <li class=""><a href="/branches">BRANCHES</a></li>
+                <li class=""><a href="/services">SERVICES</a></li>
+                <li class=""><a href="/international-patients">INTERNATIONAL PATIENTS</a></li>
+                <li class=""><a href="/events-awards">EVENTS/AWARDS</a></li>
+                <li class=""><a href="/insights">INSIGHTS</a></li>
+                <li class=""><a href="/contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<script>
+    // Toggle the menu on click
+    document.querySelector('.menu-toggle').addEventListener('click', function () {
+        const menu = document.querySelector('.menu');
+        menu.classList.toggle('active');
+
+        // Toggle between bars and times icon
+        const icon = this.querySelector('i');
+        if (menu.classList.contains('active')) {
+            icon.classList.remove('fa-bars');
+            icon.classList.add('fa-times');
+        } else {
+            icon.classList.remove('fa-times');
+            icon.classList.add('fa-bars');
+        }
+    });
+</script> -->
+
+
+<header>
+    <div class="top-bar">
+        <div class="contact-info">
+            <a href="mailto:info@afaqclinics.com"><i class="fa fa-envelope"></i> info@afaqclinics.com</a>
+            <span class="phone-number"><a href="tel:+919700948434"><i class="fa fa-phone"></i> (+91) 9700948434</a></span>
+            <div class="mobile-icons">
+                <a href="tel:+919700948434"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                <a href="https://wa.me/919700948434"><i class="fa fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="appointment">
+            <a href="https://wa.me/919700948434?text=Hello%2C%20I%20want%20to%20book%20a%20free%20consultation" class="btn-appointment"><i class="fa fa-calendar"></i> Book Appointment</a>
+        </div>
+        <div class="social-icons">
+            <a href="https://in.linkedin.com/company/afaqclinics" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://x.com/AfaqClinics" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/afaqclinics/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.facebook.com/afaqclinics/" target="_blank"><i class="fa fa-facebook"></i></a>
+            <!-- <a href="#"><i class="fa fa-rss"></i></a> -->
+        </div>
+    </div>
+    <div class="main-nav">
+        <div class="logo">
+            <a href="#"><img src="assets/img/logo_with_tagline.png" alt="AFAQ Clinics"></a>
+        </div>
+        <div class="menu-toggle">
+            <i class="fa fa-bars"></i>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li class=""><a href="home.html">HOME</a></li>
+                <!-- <li class=""><a href="/about">ABOUT US</a></li> -->
+                
+                
+                <li class="dropdown ">
+                    <a href="about.html">ABOUT</a>
+                    <ul class="dropdown-menu">
+                        <li class=""><a href="about.html">ABOUT US</a></li>
+                        <li class=""><a href="departments.html">DEPARTMENTS</a></li>
+                        <li class=""><a href="branches.html">BRANCHES</a></li>
+                        <li class=""><a href="services.html">SERVICES</a></li>
+                    </ul>
+                </li>
+
+
+                <!-- <li class=""><a href="/departments">DEPARTMENTS</a></li>
+                <li class=""><a href="/branches">BRANCHES</a></li>
+                <li class=""><a href="/services">SERVICES</a></li> -->
+                <li class=""><a href="international-patients.html">INTERNATIONAL PATIENTS</a></li>
+                <li class=""><a href="events-awards.html">EVENTS/AWARDS</a></li>
+                <li class=""><a href="insights.html">INSIGHTS</a></li>
+                <li class=""><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<style>
+    /* Top Bar Styling */
+    .top-bar {
+        background-color: #d71920;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 30px;
+        align-items: center;
+        position: relative;
+        z-index: 9999; 
+        opacity: 1;
+    }
+
+    .contact-info {
+        display: flex;
+        gap: 20px;
+    }
+
+    .contact-info a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Helvetica', sans-serif;
+        font-size: 14px;
+    }
+
+    .contact-info a i {
+        margin-right: 5px;
+    }
+
+    .appointment .btn-appointment {
+        background-color: white;
+        color: #d71920;
+        padding: 8px 15px;
+        border-radius: 20px;
+        font-family: 'Helvetica-Bold', sans-serif;
+        text-decoration: none;
+        border: 2px solid black;
+        white-space: nowrap;
+    }
+
+    .appointment .btn-appointment i {
+        margin-right: 5px;
+    }
+
+    .social-icons {
+        display: flex;
+        gap: 10px;
+    }
+
+    .social-icons a {
+        color: white;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    /* Hide email and social icons on mobile */
+    @media (max-width: 768px) {
+        .social-icons {
+            display: none;
+        }
+
+        .contact-info a:first-child {
+            display: none;
+        }
+
+        .contact-info .phone-number {
+            display: none; /* Hide full phone number on mobile */
+        }
+
+        .contact-info .mobile-icons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .appointment {
+            margin-left: auto;
+        }
+    }
+
+    .mobile-icons {
+        display: none; /* Hide mobile icons by default */
+    }
+    .mobile-icons a {
+        font-size: 30px; /* Increase icon size */
+        color: white;
+        text-decoration: none;
+    }
+
+    /* Main Navigation Styling */
+    .main-nav {
+        background-color: white;
+        padding: 20px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 3px solid #d71920;
+        position: relative;
+        z-index: 9999; /* Ensure navigation stays on top */
+    }
+
+    .logo img {
+        max-height: 50px;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .menu ul {
+        display: flex;
+        gap: 20px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu ul li {
+        position: relative;
+    }
+
+    .menu ul li a {
+        text-decoration: none;
+        color: #000033;
+        font-family: 'Helvetica-Bold', sans-serif;
+        font-size: 14px;
+        padding: 5px 10px;
+        display: block;
+        transition: color 0.3s, border-bottom 0.3s;
+    }
+
+    .menu ul li a:hover {
+        color: #d71920;
+        border-bottom: 2px solid #d71920;
+    }
+
+    .menu ul li.active a {
+        font-weight: 700; /* Increase font weight for active item */
+        color: #d71920; /* Change color for active item */
+        border-bottom: 2px solid #d71920;
+    }
+
+    /* Dropdown Menu Styling */
+    .menu ul li.dropdown {
+        position: relative;
+    }
+
+    .menu ul li .dropdown-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: white;
+        padding: 10px;
+        border: 1px solid #ddd;
+        z-index: 1000;
+        min-width: 200px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .menu ul li .dropdown-menu li {
+        margin-bottom: 10px;
+    }
+
+    .menu ul li .dropdown-menu li a {
+        color: #000033;
+        padding: 5px 10px;
+        display: block;
+        font-size: 14px;
+        transition: background-color 0.3s;
+    }
+
+    .menu ul li .dropdown-menu li a:hover {
+        background-color: #f0f0f0;
+    }
+
+    /* Show dropdown on hover */
+    .menu ul li.dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    /* Mobile Menu */
+    .menu-toggle {
+        display: none;
+        font-size: 24px;
+        color: #d71920;
+        cursor: pointer;
+    }
+
+    .menu ul {
+        flex-direction: row;
+    }
+
+    @media (max-width: 768px) {
+        .menu {
+            display: none;
+            flex-direction: column;
+            width: 100%;
+            background-color: white;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            padding: 20px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 9999; /* Ensure dropdown stays on top */
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+        }
+
+        .menu ul {
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .menu ul li a {
+            padding: 10px;
+            border-bottom: none;
+        }
+
+        .menu ul li a:hover {
+            border-bottom: none;
+            background-color: #f0f0f0;
+        }
+
+        .menu-toggle {
+            display: block;
+        }
+
+        .menu.active {
+            display: flex;
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+    }
+</style>
+
+<script>
+    // Toggle the menu on click
+    document.querySelector('.menu-toggle').addEventListener('click', function () {
+        const menu = document.querySelector('.menu');
+        menu.classList.toggle('active');
+
+        // Toggle between bars and times icon
+        const icon = this.querySelector('i');
+        if (menu.classList.contains('active')) {
+            icon.classList.remove('fa-bars');
+            icon.classList.add('fa-times');
+        } else {
+            icon.classList.remove('fa-times');
+            icon.classList.add('fa-bars');
+        }
+    });
+
+    // Dropdown toggle for mobile
+    document.querySelectorAll('.menu ul li.dropdown > a').forEach(function(dropdownLink) {
+        dropdownLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            const dropdownMenu = this.nextElementSibling;
+            dropdownMenu.classList.toggle('active');
+        });
+    });
+</script>
+
+
+   
+
+ <!-- slider -->
+<style>
+
+
+.carousel-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px; /* Slightly increased height for better visibility */
+}
+
+.carousel-progress .progress {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1); /* Light background color of the progress bar container */
+}
+
+.carousel-progress .progress-bar {
+  background-color: #d71920; /* Color of the progress bar */
+  transition: width 0.5s linear; /* Smooth transition */
+}
+
+.carousel-inner {
+  position: relative;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for controls */
+  border-radius: 50%; /* Make the controls round */
+  padding: 10px; /* Add padding to make the controls larger */
+}
+
+/* Media Query for Responsive Images */
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 300px; /* Set a height for mobile images */
+  }
+}
+
+@media (min-width: 769px) {
+  .carousel-item img {
+    height: 500px; /* Set a height for desktop images */
+  }
+}
+
+/* Ensure the highlight section overlaps the slider */
+.highlight-box-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #d71920;
+  padding: 20px;
+  flex-wrap: wrap; /* Ensures responsiveness */
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50px; /* Adjust this value to control the overlap */
+  position: relative;
+  z-index: 10;
+}
+
+/* Individual Highlight Boxes */
+.highlight-box {
+  flex: 1;
+  min-width: 200px; /* Ensures that boxes don't get too small */
+  max-width: 300px; /* Adjust as necessary */
+  margin: 10px;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Icons */
+.highlight-box i {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* Responsive Text */
+.highlight-box h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.highlight-box p {
+  font-size: 14px;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  .highlight-box-container {
+    flex-direction: column;
+    max-width: 100%;
+    background-color: transparent;
+    margin-top: -100px; /* Adjust this value to control the overlap on smaller screens */
+  }
+
+  .highlight-box {
+    max-width: 100%;
+    margin: 10px 0;
+    background-color: #d71920;
+  }
+}
+</style>
+
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Progress Bar -->
+  <div class="carousel-progress">
+    <div class="progress">
+      <div id="carouselProgressBar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner"></div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<script>
+  // Arrays for mobile and desktop images
+  const mobileImages = [
+    "https://afaqclinics.com/assets/img/web_banner/web_banners_1.jpg",
+    "assets/img/web_banner/web_banners_2.jpg",
+    "assets/img/web_banner/web_banners_3.jpg",
+    "assets/img/web_banner/web_banners_4.jpg",
+    "assets/img/web_banner/web_banners_5.jpg",
+    "assets/img/web_banner/web_banners_6.jpg",
+    "assets/img/web_banner/web_banners_7.jpg",
+    "assets/img/web_banner/web_banners_8.jpg",
+    "assets/img/web_banner/web_banners_9.jpg"
+  ];
+
+  const desktopImages = [
+    "https://afaqclinics.com/assets/img/web_banner/desktop_web_banners_1.jpg",
+    "assets/img/web_banner/desktop_web_banners_2.jpg",
+    "assets/img/web_banner/desktop_web_banners_3.jpg",
+    "assets/img/web_banner/desktop_web_banners_4.jpg",
+    "assets/img/web_banner/desktop_web_banners_5.jpg",
+    "assets/img/web_banner/desktop_web_banners_6.jpg",
+    "assets/img/web_banner/desktop_web_banners_7.jpg",
+    "assets/img/web_banner/desktop_web_banners_8.jpg",
+    "assets/img/web_banner/desktop_web_banners_9.jpg"
+  ];
+
+  // Get the carousel-inner element
+  const carouselInner = document.querySelector('.carousel-inner');
+
+  // Dynamically create carousel items
+  for (let i = 0; i < desktopImages.length; i++) {
+    const item = document.createElement('div');
+    item.className = i === 0 ? 'carousel-item active' : 'carousel-item';
+    
+    const picture = document.createElement('picture');
+
+    const sourceMobile = document.createElement('source');
+    sourceMobile.media = "(max-width: 768px)";
+    sourceMobile.srcset = mobileImages[i];
+
+    const sourceDesktop = document.createElement('source');
+    sourceDesktop.media = "(min-width: 769px)";
+    sourceDesktop.srcset = desktopImages[i];
+
+    const img = document.createElement('img');
+    img.src = desktopImages[i];
+    img.alt = `Slide ${i + 1}`;
+    img.className = 'd-block w-100';
+
+    picture.appendChild(sourceMobile);
+    picture.appendChild(sourceDesktop);
+    picture.appendChild(img);
+    item.appendChild(picture);
+    carouselInner.appendChild(item);
+  }
+</script>
+
+<!-- progress bar-->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const carouselElement = document.querySelector('#demo');
+        const progressBar = document.querySelector('#carouselProgressBar');
+        const intervalTime = 3000; // Time each slide is visible
+        const progressDuration = 6000; // Duration of the progress bar animation
+
+        // Initialize the carousel
+        const carousel = new bootstrap.Carousel(carouselElement, {
+        interval: intervalTime,
+        ride: 'carousel'
+        });
+
+        // Function to animate the progress bar
+        function startProgressBar() {
+        progressBar.style.transition = `width ${intervalTime}ms linear`;
+        progressBar.style.width = '100%';
+        }
+
+        function resetProgressBar() {
+        progressBar.style.transition = 'none'; // Disable transition during reset
+        progressBar.style.width = '0%';
+        // Force a reflow to restart the transition
+        void progressBar.offsetWidth; // Trigger a reflow
+        progressBar.style.transition = `width ${intervalTime}ms linear`;
+        }
+
+        carouselElement.addEventListener('slid.bs.carousel', function() {
+        // Reset and start the progress bar when the slide changes
+        resetProgressBar();
+        startProgressBar();
+        });
+
+        // Start the progress bar on load
+        startProgressBar();
+    });
+</script>
+
+<!-- Highlights Section -->
+<div class="highlight-box-container">
+    <div class="highlight-box">
+        <i class="fa fa-file-text-o"></i>
+        <h3>Trusted Care</h3>
+        <p>A decade ago, we made a commitment. We’ve kept it.</p>
+    </div>
+    <div class="highlight-box">
+        <i class="fa fa-user-md"></i>
+        <h3>Experienced Specialist</h3>
+        <p>We are much more than the white coats and affordable too.</p>
+    </div>
+    <div class="highlight-box">
+        <i class="fa fa-lightbulb-o"></i>
+        <h3>Culture of Innovations</h3>
+        <p>Achieving better health care, we are in the medical research and development field.</p>
+    </div>
+</div>
+<!-- /Highlights Section -->
+
+<!-- Welcome Section -->
+<section class="welcome-section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <div class="welcome-content">
+          <h1 class="section-title">Welcome to Afaq Clinics</h1>
+          <h2 class="main-title">Your Trusted Partner in Comprehensive Family Healthcare</h2>
+          <p class="description">
+           
+            Since our inception in 2010, Afaq Clinics has evolved into a renowned network of multi-specialty clinics and diagnostic centers, recognized for delivering exceptional healthcare across Hyderabad. What started as a single clinic has grown into a trusted institution, driven by a commitment to innovation, compassion, and comprehensive medical services.
+
+          </p>
+          <p class="description">
+              
+            At Afaq Clinics, we bring together advanced medical expertise and personalized care to provide a wide spectrum of healthcare services, ranging from Family Physician Consultations to Surgical Care and Diagnostics, all under one roof. With strategically located facilities, we ensure that premium healthcare is accessible to everyone in a warm and welcoming environment.
+            
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="welcome-image">
+          <img src="assets/img/about_us.jpg" alt="Afaq Clinics" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Custom CSS -->
+<style>
+  /* Welcome Section */
+  .welcome-section {
+    padding: 60px 0;
+  }
+
+  /* Section Title */
+  .section-title {
+    font-weight: 900;
+    color: #d71920; /* Afaq Clinics theme color */
+    margin-bottom: 10px;
+  }
+
+  /* Main Title */
+  .main-title {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #00215B;
+    margin-bottom: 20px;
+    line-height: 1.4;
+  }
+
+  /* Description Text */
+  .description {
+    font-size: 1rem;
+    color: #00215B; /* Slightly lighter grey for description text */
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+
+  /* Image Styling */
+  .welcome-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Slightly rounded corners for the image */
+  }
+
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .main-title {
+      font-size: 1.75rem;
+    }
+
+    .description {
+      font-size: 0.9rem;
+    }
+  }
+</style>
+
+
+
+
+<!-- Doctor Specialties Section -->
+
+<!-- Custom CSS -->
+<style>
+  /* Section Title and Subtitle */
+  .section-title {
+    /* font-size: 1.5rem; */
+    margin-bottom: 10px;
+    text-align: start;
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  /* Card Styling */
+  .row.flex-nowrap .card {
+    flex: 0 0 auto;
+    width: 250px;
+    margin-right: 15px;
+  }
+
+  .row.flex-nowrap .card img {
+    width: 100%;
+    /* object-fit: cover; */
+  }
+
+  .card-body {
+    text-align: left;
+  }
+
+  .card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #d71920;
+  }
+
+  .card-text {
+    font-size: 0.875rem;
+    color: #00215B;
+  }
+
+  /* Horizontal Scroll for Row */
+  .row.flex-nowrap {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 15px;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+  }
+
+  .row.flex-nowrap::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+  }
+
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .row.flex-nowrap .card {
+      width: 55%; /* Show 2 and a half cards per row on small screens */
+    }
+
+    .row.flex-nowrap .card img {
+      /* height: 120px; */
+    }
+
+    .card-title {
+    font-size: 0.678rem;
+    }
+
+  .card-text {
+    font-size: 0.575rem;
+  }
+
+  }
+</style>
+
+
+
+
+
+
+
+
+<!-- Doctor Specialties Section -->
+<section class="specialties-section mt-5">
+  <div class="container">
+    <h2 class="section-title text-center mb-3">Book an Appointment for In-Clinic Consultation</h2>
+    <p class="section-subtitle text-center mb-4">Connect with experienced doctors near by you</p>
+
+    <div class="row flex-nowrap overflow-auto">
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/department_pics/cosmetic_sermatology.png" class="card-img-top" alt="Cosmetic Dermatology" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Cosmetic Dermatology</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹5000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹4,000.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Special discount on all dermatology procedures              </p> -->
+                        <p class="card-description fw-light text-small">We offer advanced cosmetic dermatology treatments to bring out your best.</p>
+            <a href="offer/dermatology.html" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/department_pics/ENT.png" class="card-img-top" alt="ENT" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">ENT</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹6000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹5,100.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Comprehensive ENT care with special discount              </p> -->
+                        <p class="card-description fw-light text-small">Our ENT specialists provide top-notch care for ear, nose, and throat conditions.</p>
+            <a href="offer/ent.html" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/department_pics/Fertility.png" class="card-img-top" alt="Fertility" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Fertility</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹12000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹10,800.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Special package for fertility treatments              </p> -->
+                        <p class="card-description fw-light text-small">Comprehensive fertility solutions to help families grow.</p>
+            <a href="offer/fertility.html" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/department_pics/gynecology.png" class="card-img-top" alt="Gynecology" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Gynecology</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹8000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹6,400.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Discount on all gynecological services              </p> -->
+                        <p class="card-description fw-light text-small">Providing expert gynecological care for women of all ages.</p>
+            <a href="offer/gynecology.html" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/department_pics/hair_transplant.png" class="card-img-top" alt="Hair Transplant" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Hair Transplant</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹10000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹8,500.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Hair transplant services with a special discount              </p> -->
+                        <p class="card-description fw-light text-small">Effective hair restoration services for men and women.</p>
+            <a href="offer/hair-transplant.html" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/department_pics/oncology.png" class="card-img-top" alt="Oncology" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Oncology</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹15000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹11,250.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Special discount on oncology services              </p> -->
+                        <p class="card-description fw-light text-small">Leading-edge cancer treatments to fight cancer effectively.</p>
+            <a href="offer/oncology.html" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/department_pics/organ_transplant.png" class="card-img-top" alt="Organ Transplant" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Organ Transplant</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹50000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹47,500.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Discount on organ transplant services              </p> -->
+                        <p class="card-description fw-light text-small">Expert organ transplant services to save lives.</p>
+            <a href="offer/organ-transplant.html" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/department_pics/orthopaedic.png" class="card-img-top" alt="Orthopaedic" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Orthopaedic</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹7000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹6,300.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Special discount on orthopaedic treatments              </p> -->
+                        <p class="card-description fw-light text-small">Comprehensive bone and joint care.</p>
+            <a href="offer/orthopaedic.html" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/department_pics/rheumatology.png" class="card-img-top" alt="Rheumatology" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Rheumatology</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹6500                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹5,525.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Discount on rheumatology services              </p> -->
+                        <p class="card-description fw-light text-small">Specialized care for rheumatic diseases.</p>
+            <a href="offer/rheumatology.html" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/department_pics/slimming.png" class="card-img-top" alt="Slimming" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Slimming</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹3000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹2,400.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Discount on slimming programs              </p> -->
+                        <p class="card-description fw-light text-small">Personalized slimming programs for effective weight loss.</p>
+            <a href="offer/slimming.html" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/department_pics/clinical_dermatology.png" class="card-img-top" alt="Clinical Dermatology" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Clinical Dermatology</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹4500                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹3,825.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Special discount on dermatology services              </p> -->
+                        <p class="card-description fw-light text-small">Effective treatments for various skin conditions.</p>
+            <a href="offer/clinical-dermatology.html" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/department_pics/dept_cardiology.png" class="card-img-top" alt="Cardiology" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Cardiology</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹10000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹9,000.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Discount on cardiology services              </p> -->
+                        <p class="card-description fw-light text-small">Comprehensive heart care services.</p>
+            <a href="offer/cardiology.html" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/department_pics/neurology.png" class="card-img-top" alt="Neurology" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Neurology</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹11000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹9,900.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Discount on neurology services              </p> -->
+                        <p class="card-description fw-light text-small">Specialized care for neurological conditions.</p>
+            <a href="offer/neurology.html" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/department_pics/urology.png" class="card-img-top" alt="Urology" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Urology</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹9000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹7,200.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Discount on urology services              </p> -->
+                        <p class="card-description fw-light text-small">Comprehensive care for urinary and reproductive health.</p>
+            <a href="offer/urology.html" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/test_labs_offers/thyroid_function_tests.png" class="card-img-top" alt="Thyroid function tests" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Thyroid function tests</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹1500                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹1,350.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Special discount on thyroid function tests              </p> -->
+                        <p class="card-description fw-light text-small">Detailed thyroid tests to assess thyroid health.</p>
+            <a href="offer/thyroid-function-tests.html" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/test_labs_offers/basic_metabolic_panel.png" class="card-img-top" alt="Basic metabolic panel" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Basic metabolic panel</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹2000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹1,800.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Discount on basic metabolic panel              </p> -->
+                        <p class="card-description fw-light text-small">Screen for various metabolic functions.</p>
+            <a href="offer/basic-metabolic-panel.html" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/test_labs_offers/blood_pressure_measurement.png" class="card-img-top" alt="Blood pressure measurement" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Blood pressure measurement</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹500                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹475.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Special discount on blood pressure measurement              </p> -->
+                        <p class="card-description fw-light text-small">Accurate blood pressure monitoring.</p>
+            <a href="offer/blood-pressure-measurement.html" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/test_labs_offers/electrolytes.png" class="card-img-top" alt="Electrolytes" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Electrolytes</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹1000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹900.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Discount on electrolyte tests              </p> -->
+                        <p class="card-description fw-light text-small">Essential electrolyte level analysis.</p>
+            <a href="offer/electrolytes.html" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/test_labs_offers/liver_function_test.png" class="card-img-top" alt="Liver function test" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Liver function test</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹1800                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹1,530.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Special discount on liver function tests              </p> -->
+                        <p class="card-description fw-light text-small">Detailed liver function assessment.</p>
+            <a href="offer/liver-function-test.html" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/test_labs_offers/blood_test.png" class="card-img-top" alt="Blood test" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Blood test</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹1000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹950.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Discount on complete blood tests              </p> -->
+                        <p class="card-description fw-light text-small">Comprehensive blood testing.</p>
+            <a href="offer/blood-test.html" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/test_labs_offers/colonoscopy.png" class="card-img-top" alt="Colonoscopy" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Colonoscopy</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹4000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹3,400.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Discount on colonoscopy              </p> -->
+                        <p class="card-description fw-light text-small">Detailed examination of the colon.</p>
+            <a href="offer/colonoscopy.html" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/test_labs_offers/amniocentesis.png" class="card-img-top" alt="Amniocentesis" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Amniocentesis</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹5000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹4,500.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Special discount on amniocentesis              </p> -->
+                        <p class="card-description fw-light text-small">Prenatal screening for fetal health.</p>
+            <a href="offer/amniocentesis.html" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/test_labs_offers/biopsy.png" class="card-img-top" alt="Biopsy" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Biopsy</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹3500                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹3,150.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Discount on biopsy tests              </p> -->
+                        <p class="card-description fw-light text-small">Detailed tissue analysis for diagnosis.</p>
+            <a href="offer/biopsy.html" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/test_labs_offers/bone_marrow_aspiration.png" class="card-img-top" alt="Bone marrow aspiration" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Bone marrow aspiration</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹6000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹5,700.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Discount on bone marrow aspiration              </p> -->
+                        <p class="card-description fw-light text-small">Detailed analysis of bone marrow.</p>
+            <a href="offer/bone-marrow-aspiration.html" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/test_labs_offers/endoscopy.png" class="card-img-top" alt="Endoscopy" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Endoscopy</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹5000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹4,250.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Discount on endoscopy              </p> -->
+                        <p class="card-description fw-light text-small">Examine the internal organs in detail.</p>
+            <a href="offer/endoscopy.html" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/test_labs_offers/pregnancy_test.png" class="card-img-top" alt="Pregnancy test" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Pregnancy test</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹500                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹475.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Discount on pregnancy tests              </p> -->
+                        <p class="card-description fw-light text-small">Accurate and reliable pregnancy testing.</p>
+            <a href="https://afaqclinics.in/offer/pregnancy-test" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/test_labs_offers/bronchoscopy.png" class="card-img-top" alt="Bronchoscopy" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Bronchoscopy</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹5500                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹4,950.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Discount on bronchoscopy              </p> -->
+                        <p class="card-description fw-light text-small">Examine lung health in detail.</p>
+            <a href="https://afaqclinics.in/offer/bronchoscopy" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/test_labs_offers/dhea_sulfate_test.png" class="card-img-top" alt="DHEA sulfate test" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">DHEA sulfate test</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹1200                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹1,080.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Discount on DHEA sulfate tests              </p> -->
+                        <p class="card-description fw-light text-small">Measure DHEA sulfate hormone levels.</p>
+            <a href="https://afaqclinics.in/offer/dhea-sulfate-test" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/test_labs_offers/angiography.png" class="card-img-top" alt="Angiography" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Angiography</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹8000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹6,800.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Discount on angiography              </p> -->
+                        <p class="card-description fw-light text-small">Detailed imaging of blood vessels.</p>
+            <a href="https://afaqclinics.in/offer/angiography" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/test_labs_offers/blood_count.png" class="card-img-top" alt="Blood count" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Blood count</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹1500                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹1,425.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Discount on blood count              </p> -->
+                        <p class="card-description fw-light text-small">Detailed blood count analysis.</p>
+            <a href="https://afaqclinics.in/offer/blood-count" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/test_labs_offers/cardiac_catheterization.png" class="card-img-top" alt="Cardiac catheterization" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Cardiac catheterization</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹10000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹9,000.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Discount on cardiac catheterization              </p> -->
+                        <p class="card-description fw-light text-small">Detailed analysis of heart functions.</p>
+            <a href="https://afaqclinics.in/offer/cardiac-catheterization" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/test_labs_offers/lipid_profile.png" class="card-img-top" alt="Lipid profile" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Lipid profile</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹2000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹1,800.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Discount on lipid profile              </p> -->
+                        <p class="card-description fw-light text-small">Detailed cholesterol and lipid analysis.</p>
+            <a href="https://afaqclinics.in/offer/lipid-profile" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/test_labs_offers/auscultation.png" class="card-img-top" alt="Auscultation" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Auscultation</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹500                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹475.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Discount on auscultation              </p> -->
+                        <p class="card-description fw-light text-small">Basic examination of heart and lungs.</p>
+            <a href="https://afaqclinics.in/offer/auscultation" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+              <div class="card mx-2" style="min-width: 250px; max-width: 300px;">
+          <img src="assets/img/test_labs_offers/colonoscopy.png" class="card-img-top" alt="Colonoscopy" style="height: 180px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Colonoscopy</h5>
+                          <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹4000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹3,400.00                </span>
+              </p>
+              <!-- <p class="card-text text-success fw-semibold">
+                Discount on colonoscopy              </p> -->
+                        <p class="card-description fw-light text-small">Thorough screening of the colon.</p>
+            <a href="https://afaqclinics.in/offer/colonoscopy" class="btn btn-primary mt-3">
+              <i class="fa fa-info-circle"></i> Book
+            </a>
+          </div>
+        </div>
+          </div>
+
+    
+    <a href="offer/dermatology.html" class="btn btn-danger mt-5 d-block mx-auto" style="max-width: fit-content;">
+      <i class="fa fa-location-arrow"></i> View All Consultation Offer
+    </a>
+
+
+  </div>
+</section>
+
+
+
+
+<!-- Lab tests section -->
+<section class="specialties-section mt-5">
+  <div class="container">
+    <h2 class="section-title text-center">Book Affordable Lab Tests & Health Checkups</h2>
+    <p class="section-subtitle text-center">Free home sample collection for all types of tests.</p>
+
+    <div class="row flex-nowrap overflow-auto">
+              <div class="card">
+          <img src="assets/img/test_labs_offers/thyroid_function_tests.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h5 class="card-title">Thyroid function tests</h5>
+            
+            <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹4000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹3,400.00                </span>
+              </p>
+
+
+            <p class="card-text">Detailed thyroid tests to assess thyroid health.</p>
+            <a href="offer/thyroid-function-tests.html" class="btn btn-primary"><i class="fa fa-info-circle"></i> Book</a>
+          </div>
+        </div>
+              <div class="card">
+          <img src="assets/img/test_labs_offers/basic_metabolic_panel.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h5 class="card-title">Basic metabolic panel</h5>
+            
+            <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹4000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹3,400.00                </span>
+              </p>
+
+
+            <p class="card-text">Screen for various metabolic functions.</p>
+            <a href="offer/basic-metabolic-panel.html" class="btn btn-primary"><i class="fa fa-info-circle"></i> Book</a>
+          </div>
+        </div>
+              <div class="card">
+          <img src="assets/img/test_labs_offers/blood_pressure_measurement.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h5 class="card-title">Blood pressure measurement</h5>
+            
+            <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹4000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹3,400.00                </span>
+              </p>
+
+
+            <p class="card-text">Accurate blood pressure monitoring.</p>
+            <a href="offer/blood-pressure-measurement.html" class="btn btn-primary"><i class="fa fa-info-circle"></i> Book</a>
+          </div>
+        </div>
+              <div class="card">
+          <img src="assets/img/test_labs_offers/electrolytes.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h5 class="card-title">Electrolytes</h5>
+            
+            <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹4000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹3,400.00                </span>
+              </p>
+
+
+            <p class="card-text">Essential electrolyte level analysis.</p>
+            <a href="offer/electrolytes.html" class="btn btn-primary"><i class="fa fa-info-circle"></i> Book</a>
+          </div>
+        </div>
+              <div class="card">
+          <img src="assets/img/test_labs_offers/liver_function_test.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h5 class="card-title">Liver function test</h5>
+            
+            <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹4000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹3,400.00                </span>
+              </p>
+
+
+            <p class="card-text">Detailed liver function assessment.</p>
+            <a href="offer/liver-function-test.html" class="btn btn-primary"><i class="fa fa-info-circle"></i> Book</a>
+          </div>
+        </div>
+              <div class="card">
+          <img src="assets/img/test_labs_offers/blood_test.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h5 class="card-title">Blood test</h5>
+            
+            <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹4000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹3,400.00                </span>
+              </p>
+
+
+            <p class="card-text">Comprehensive blood testing.</p>
+            <a href="offer/blood-test.html" class="btn btn-primary"><i class="fa fa-info-circle"></i> Book</a>
+          </div>
+        </div>
+              <div class="card">
+          <img src="assets/img/test_labs_offers/colonoscopy.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h5 class="card-title">Colonoscopy</h5>
+            
+            <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹4000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹3,400.00                </span>
+              </p>
+
+
+            <p class="card-text">Detailed examination of the colon.</p>
+            <a href="offer/colonoscopy.html" class="btn btn-primary"><i class="fa fa-info-circle"></i> Book</a>
+          </div>
+        </div>
+              <div class="card">
+          <img src="assets/img/test_labs_offers/amniocentesis.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h5 class="card-title">Amniocentesis</h5>
+            
+            <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹4000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹3,400.00                </span>
+              </p>
+
+
+            <p class="card-text">Prenatal screening for fetal health.</p>
+            <a href="offer/amniocentesis.html" class="btn btn-primary"><i class="fa fa-info-circle"></i> Book</a>
+          </div>
+        </div>
+              <div class="card">
+          <img src="assets/img/test_labs_offers/biopsy.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h5 class="card-title">Biopsy</h5>
+            
+            <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹4000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹3,400.00                </span>
+              </p>
+
+
+            <p class="card-text">Detailed tissue analysis for diagnosis.</p>
+            <a href="offer/biopsy.html" class="btn btn-primary"><i class="fa fa-info-circle"></i> Book</a>
+          </div>
+        </div>
+              <div class="card">
+          <img src="assets/img/test_labs_offers/bone_marrow_aspiration.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h5 class="card-title">Bone marrow aspiration</h5>
+            
+            <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹4000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹3,400.00                </span>
+              </p>
+
+
+            <p class="card-text">Detailed analysis of bone marrow.</p>
+            <a href="offer/bone-marrow-aspiration.html" class="btn btn-primary"><i class="fa fa-info-circle"></i> Book</a>
+          </div>
+        </div>
+              <div class="card">
+          <img src="assets/img/test_labs_offers/endoscopy.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h5 class="card-title">Endoscopy</h5>
+            
+            <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹4000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹3,400.00                </span>
+              </p>
+
+
+            <p class="card-text">Examine the internal organs in detail.</p>
+            <a href="offer/endoscopy.html" class="btn btn-primary"><i class="fa fa-info-circle"></i> Book</a>
+          </div>
+        </div>
+              <div class="card">
+          <img src="assets/img/test_labs_offers/pregnancy_test.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h5 class="card-title">Pregnancy test</h5>
+            
+            <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹4000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹3,400.00                </span>
+              </p>
+
+
+            <p class="card-text">Accurate and reliable pregnancy testing.</p>
+            <a href="https://afaqclinics.in/offer/pregnancy-test" class="btn btn-primary"><i class="fa fa-info-circle"></i> Book</a>
+          </div>
+        </div>
+              <div class="card">
+          <img src="assets/img/test_labs_offers/bronchoscopy.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h5 class="card-title">Bronchoscopy</h5>
+            
+            <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹4000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹3,400.00                </span>
+              </p>
+
+
+            <p class="card-text">Examine lung health in detail.</p>
+            <a href="https://afaqclinics.in/offer/bronchoscopy" class="btn btn-primary"><i class="fa fa-info-circle"></i> Book</a>
+          </div>
+        </div>
+              <div class="card">
+          <img src="assets/img/test_labs_offers/dhea_sulfate_test.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h5 class="card-title">DHEA sulfate test</h5>
+            
+            <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹4000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹3,400.00                </span>
+              </p>
+
+
+            <p class="card-text">Measure DHEA sulfate hormone levels.</p>
+            <a href="https://afaqclinics.in/offer/dhea-sulfate-test" class="btn btn-primary"><i class="fa fa-info-circle"></i> Book</a>
+          </div>
+        </div>
+              <div class="card">
+          <img src="assets/img/test_labs_offers/angiography.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h5 class="card-title">Angiography</h5>
+            
+            <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹4000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹3,400.00                </span>
+              </p>
+
+
+            <p class="card-text">Detailed imaging of blood vessels.</p>
+            <a href="https://afaqclinics.in/offer/angiography" class="btn btn-primary"><i class="fa fa-info-circle"></i> Book</a>
+          </div>
+        </div>
+              <div class="card">
+          <img src="assets/img/test_labs_offers/blood_count.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h5 class="card-title">Blood count</h5>
+            
+            <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹4000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹3,400.00                </span>
+              </p>
+
+
+            <p class="card-text">Detailed blood count analysis.</p>
+            <a href="https://afaqclinics.in/offer/blood-count" class="btn btn-primary"><i class="fa fa-info-circle"></i> Book</a>
+          </div>
+        </div>
+              <div class="card">
+          <img src="assets/img/test_labs_offers/cardiac_catheterization.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h5 class="card-title">Cardiac catheterization</h5>
+            
+            <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹4000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹3,400.00                </span>
+              </p>
+
+
+            <p class="card-text">Detailed analysis of heart functions.</p>
+            <a href="https://afaqclinics.in/offer/cardiac-catheterization" class="btn btn-primary"><i class="fa fa-info-circle"></i> Book</a>
+          </div>
+        </div>
+              <div class="card">
+          <img src="assets/img/test_labs_offers/lipid_profile.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h5 class="card-title">Lipid profile</h5>
+            
+            <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹4000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹3,400.00                </span>
+              </p>
+
+
+            <p class="card-text">Detailed cholesterol and lipid analysis.</p>
+            <a href="https://afaqclinics.in/offer/lipid-profile" class="btn btn-primary"><i class="fa fa-info-circle"></i> Book</a>
+          </div>
+        </div>
+              <div class="card">
+          <img src="assets/img/test_labs_offers/auscultation.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h5 class="card-title">Auscultation</h5>
+            
+            <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹4000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹3,400.00                </span>
+              </p>
+
+
+            <p class="card-text">Basic examination of heart and lungs.</p>
+            <a href="https://afaqclinics.in/offer/auscultation" class="btn btn-primary"><i class="fa fa-info-circle"></i> Book</a>
+          </div>
+        </div>
+              <div class="card">
+          <img src="assets/img/test_labs_offers/colonoscopy.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h5 class="card-title">Colonoscopy</h5>
+            
+            <p class="card-text">
+                <span class="text-muted text-decoration-line-through">
+                  ₹4000                </span>
+                <span class="text-danger fw-bold ms-2">
+                  ₹3,400.00                </span>
+              </p>
+
+
+            <p class="card-text">Thorough screening of the colon.</p>
+            <a href="https://afaqclinics.in/offer/colonoscopy" class="btn btn-primary"><i class="fa fa-info-circle"></i> Book</a>
+          </div>
+        </div>
+          </div>
+
+    
+    <a href="offer/thyroid-function-tests.html" class="btn btn-danger mt-5 d-block mx-auto" style="max-width: fit-content;">
+      <i class="fa fa-location-arrow"></i> View All Lab-Test Offer
+    </a>
+
+  </div>
+</section>
+
+
+
+
+<!-- Medical Tourism -->
+<!-- Medical Tourism -->
+<style>
+  .medical-tourism-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #d71920; /* Dark red */
+  }
+
+  .section-subtitle {
+    font-size: 1.25rem;
+    color: #000; /* Updated for better contrast */
+    margin-bottom: 20px;
+  }
+
+  .section-description {
+    font-size: 1rem;
+    color: #f8f9fa; /* Lighter color for improved readability */
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add rounded corners */
+  }
+
+  @media (max-width: 767.98px) {
+    .medical-tourism-section .row {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .medical-tourism-section .col-lg-6 {
+      padding: 10px 15px;
+    }
+
+    .section-subtitle {
+      font-size: 1rem;
+    }
+
+    .section-description {
+      font-size: 0.9rem;
+    }
+  }
+</style>
+
+
+<section class="medical-tourism-section mt-5">
+  <div class="container">
+    <div class="row">    
+    <h2 class="section-title" style="color:#fff;">International Patient Services</h2>
+    <p class="section-subtitle text-white">Experience seamless healthcare services tailored for international patients, ensuring exceptional care and comfort during your medical journey.</p>
+      
+      <div class="col-lg-6">
+          <img src="assets/img/medical-tourims.png" class="img-fluid" alt="Medical Tourism">
+        </div>
+        
+      <div class="col-lg-6">
+        <p class="section-description">
+        At Afaq Clinics, we deliver world-class medical care designed specifically for international patients, ensuring that every step of your healthcare journey is smooth and stress-free. Our comprehensive medical tourism packages are tailored to meet your unique needs, combining state-of-the-art medical services with personalized care.
+        </p>
+
+        <p class="section-description">
+          From expert healthcare to accommodation, travel arrangements, and wellness services, we provide all-inclusive support that covers every aspect of your experience. With a focus on professionalism and compassionate care, our goal is to ensure you receive the highest standards of medical care in a welcoming environment. Let us take care of every detail, so you can focus on your health and recovery with peace of mind.
+        </p>
+
+        
+
+    
+        <a href="international-patients.html" class="btn btn-light mt-3 text-danger">
+          <i class="fa fa-location-arrow"></i> Read More...
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- Articles -->
+
+
+
+
+<!-- Article Section -->
+<div class="container text-center mt-5">
+    <h2 class="section-title text-center">Explore the Latest Health Insights & Articles</h2>
+    <p class="section-subtitle text-center">Stay informed with expert advice and the latest trends in healthcare, accessible to everyone.</p>
+
+</div>
+
+<!-- Cards Section -->
+<div class="container mt-5">
+    <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+                <img src="assets/img/insights_pics/dermatology-essentials-first-visit.jpg" class="card-img-top" alt="Image">
+                <div class="card-body">
+                    <h5 class="card-title">Dermatology Essentials: What to Know Before Your First Visit</h5>
+                    <p class="card-text">Prepare for your first dermatology appointment with this handy guide from Afaq Clinics.</p>
+                    <a href="dermatology-essentials-first-visit.html" class="btn btn-primary">
+                        <i class="fa fa-info-circle"></i> Read
+                    </a>
+                </div>
+            </div>
+        </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+                <img src="assets/img/insights_pics/anti-aging-solutions-transform-skin.jpg" class="card-img-top" alt="Image">
+                <div class="card-body">
+                    <h5 class="card-title">How Anti-Aging Solutions Can Transform Your Skin</h5>
+                    <p class="card-text">Learn how advanced anti-aging treatments can help you achieve youthful and radiant skin.</p>
+                    <a href="anti-aging-solutions-transform-skin.html" class="btn btn-primary">
+                        <i class="fa fa-info-circle"></i> Read
+                    </a>
+                </div>
+            </div>
+        </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+                <img src="assets/img/insights_pics/benefits-of-skin-rejuvenation.jpg" class="card-img-top" alt="Image">
+                <div class="card-body">
+                    <h5 class="card-title">The Benefits of Professional Skin Rejuvenation Treatments</h5>
+                    <p class="card-text">Discover how professional skin rejuvenation treatments can restore your skin’s natural glow and vitality.</p>
+                    <a href="benefits-of-skin-rejuvenation.html" class="btn btn-primary">
+                        <i class="fa fa-info-circle"></i> Read
+                    </a>
+                </div>
+            </div>
+        </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+                <img src="assets/img/insights_pics/understanding-acne-treatment-prevention.jpg" class="card-img-top" alt="Image">
+                <div class="card-body">
+                    <h5 class="card-title">Understanding Acne: Causes, Treatment, and Prevention</h5>
+                    <p class="card-text">Explore the root causes of acne, effective treatment options, and tips for prevention from Afaq Clinics.</p>
+                    <a href="understanding-acne-treatment-prevention.html" class="btn btn-primary">
+                        <i class="fa fa-info-circle"></i> Read
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+
+        <a href="insights.html" class="btn btn-danger mb-5 d-block mx-auto" style="max-width: fit-content;">
+          <i class="fa fa-location-arrow"></i> view more latest insights
+        </a>
+
+
+    </div>
+</div>
+
+<!-- Custom CSS -->
+<style>
+    /* Article Card Widths Based on Screen Size */
+    @media (min-width: 1200px) {
+        /* Large screens: 4 cards per row */
+        .article-card {
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1199.98px) {
+        /* Medium screens (iPad): 3 cards per row */
+        .article-card {
+            flex: 0 0 33.33%;
+            max-width: 33.33%;
+        }
+    }
+
+    @media (max-width: 767.98px) {
+        /* Small screens (mobile): 2 cards per row */
+        .article-card {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+</style>
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    
+<style>
+    /* Footer General Styles */
+    .footer-1 {
+        background-color: #000;
+        color: #fff;
+        padding-top: 30px;
+        font-family: 'Helvetica', sans-serif;
+    }
+    .footer-1 a {
+        color: #d71920;
+    }
+    .footer-1 a:hover {
+        color: #ffffff;
+    }
+    .footer-1 .widget-title {
+        color: #ffffff;
+        margin-bottom: 20px;
+        font-family: 'Helvetica-Bold', sans-serif;
+        text-transform: uppercase;
+        position: relative;
+    }
+    .footer-1 .widget-title span {
+        display: block;
+        height: 3px;
+        width: 50px;
+        background-color: #d71920;
+        margin-top: 10px;
+    }
+    .footer-1 .thumbnail-widget img {
+        border-radius: 5px;
+    }
+    .footer-1 .thumbnail-widget,
+    .footer-1 .gallery-widget,
+    .footer-1 .social-icons,
+    .footer-1 .tag-widget {
+        list-style: none;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    .thumb-content {
+        margin-left: 22px;
+    }
+    .footer-1 .thumbnail-widget li,
+    .footer-1 .gallery-widget li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .footer-1 .tag-widget li {
+        display: inline-block;
+        margin: 0 5px 10px;
+    }
+    .footer-1 .tag-widget a {
+        background-color: #2a2a2a;
+        color: #d71920;
+        padding: 5px 10px;
+        border-radius: 3px;
+        font-family: 'Helvetica', sans-serif;
+    }
+    .footer-1 .tag-widget a:hover {
+        background-color: #d71920;
+        color: #ffffff;
+    }
+    .footer-1 .social-icons a {
+        font-size: 16px;
+        color: #fff;
+        margin-right: 10px;
+    }
+    .footer-1 .social-icons a:hover {
+        color: #d71920;
+    }
+    .footer-1 .gallery-widget {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+    }
+    .footer-1 .gallery-widget li {
+        width: calc(33.333% - 10px);
+    }
+    .footer-1 .gallery-widget img {
+        width: 100%;
+        border-radius: 5px;
+    }
+    .footer-1 .view-more-link {
+        color: #d71920;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 12px;
+        display: block;
+        margin-top: 10px;
+        border: #d71920 solid 2px;
+        padding: 10px 16px;
+        border-radius: 20px;
+    }
+    .footer-1 .view-more-link:hover {
+        color: #ffffff;
+        border: #ffffff solid 2px;
+    }
+    .footer-copyright {
+        width: 100%;
+        border-top: solid 1px #fff;
+        padding: 15px 0;
+        text-align: center;
+        color: #ffffff;
+    }
+    .footer-copyright a {
+        color: #d71920;
+        font-weight: 600;
+    }
+    .sm-menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: right;
+    }
+    .sm-menu ul li {
+        display: inline;
+        margin-left: 15px;
+    }
+    .sm-menu ul li a {
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .sm-menu ul li a:hover {
+        color: #d71920;
+    }
+
+    .footer-copyright p {
+    font-size: 14px;
+    color: #d71920; 
+    margin: 0; 
+    font-style: italic;
+    font-weight: 700;
+    padding: 10px 0; 
+    text-align: center; 
+    line-height: 1.6; 
+    font-family: 'Helvetica', sans-serif; 
+    }
+
+
+
+
+
+    @media (max-width: 768px) {
+        .footer-copyright {
+            padding: 0px 0;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+
+            .sm-menu ul {
+            list-style: none;
+            padding-bottom:10px;
+            padding-top: 10px;
+            text-align: center;
+        }
+    }
+
+
+
+</style>
+
+
+<footer id="footer" class="footer-1">
+    <div class="main-footer widgets-dark typo-light">
+        <div class="container">
+            <div class="row">
+                <!-- Widget Column: Our Reach -->
+                <div class="col-md-3 mb-5">
+                    <div class="widget subscribe no-box">
+                        <h5 class="widget-title">Our Reach<span></span></h5>
+                        <center>
+                            <img src="assets/img/our_reach.gif" width="250" height="250" alt="Our Reach" />
+                        </center>
+                    </div>
+                </div>
+                
+                <!-- Widget Column: Active Offers -->
+                <div class="col-md-3 mb-5">
+                    <div class="widget no-box">
+                        <h5 class="widget-title">Active Offers <span></span></h5>
+                        <ul class="thumbnail-widget">
+                            <li>
+                                <div class="thumb-wrap">
+                                    <img width="60" height="60" src="old_backup/images/default/course-thumb-01.jpg" class="img-responsive" alt="Skin Department">
+                                </div>
+                                <div class="thumb-content"><a href="offer/dermatology.html">Skin</a><span> <br> Department</span></div>    
+                            </li>
+                            <li>
+                                <div class="thumb-wrap">
+                                    <img width="60" height="60" src="old_backup/images/default/course-thumb-02.jpg" class="img-responsive" alt="Hair Department">
+                                </div>
+                                <div class="thumb-content"><a href="offer/hair-transplant.html">Hair</a><span> <br> Department</span></div>    
+                            </li>
+                            <li>
+                                <div class="thumb-wrap">
+                                    <img width="60" height="60" src="old_backup/images/default/course-thumb-03.jpg" class="img-responsive" alt="Slimming Department">
+                                </div>
+                                <div class="thumb-content"><a href="offer/slimming.html">Slimming</a><span> <br> Department</span></div>    
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Widget Column: Popular Tags -->
+                <div class="col-md-3 mb-5">
+                    <div class="widget no-box mb-5">
+                        <h5 class="widget-title">We Popular in Tags<span></span></h5>
+                        <ul class="tag-widget">
+                            <li><a href="#">#Aesthetics</a></li>
+                            <li><a href="#">#Healthcare</a></li>
+                            <li><a href="#">#Healthyskin</a></li>
+                            <li><a href="#">#Skincarecommunity</a></li>
+                            <li><a href="#">#Glowingskin</a></li>
+                        </ul>
+                    </div>
+                    <!-- Widget Column: Follow Us -->
+                    <div class="widget no-box">
+                        <h5 class="widget-title">Follow Us On:<span></span></h5>
+                        <ul class="social-icons color">
+                            
+                            <li><a href="https://in.linkedin.com/company/afaqclinics" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://x.com/AfaqClinics" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/afaqclinics/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com/afaqclinics/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <!-- <li><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li> -->
+                            <!-- <li><a href="#" target="_blank"><i class="fa fa-whatsapp"></i></a></li> -->
+                        </ul>    
+                    </div>
+                </div>
+<!-- Widget Column: Our Gallery -->
+<div class="col-md-3 mb-5">
+    <div class="widget gallery-widget no-box">
+        <h5 class="widget-title">Our Gallery<span></span></h5>
+        <div class="row">
+                            <!-- Use col-3 for 4 images per row on all screen sizes -->
+                <div class="col-3 mb-3">
+                    <a href="#" class="open-modal" data-image="assets/img/gallery/1.jpg" data-title="Gallery Image 1">
+                        <img src="assets/img/gallery/1.jpg" class="img-responsive" alt="Gallery Thumb">
+                    </a>
+                </div>
+                            <!-- Use col-3 for 4 images per row on all screen sizes -->
+                <div class="col-3 mb-3">
+                    <a href="#" class="open-modal" data-image="assets/img/gallery/2.jpg" data-title="Gallery Image 2">
+                        <img src="assets/img/gallery/2.jpg" class="img-responsive" alt="Gallery Thumb">
+                    </a>
+                </div>
+                            <!-- Use col-3 for 4 images per row on all screen sizes -->
+                <div class="col-3 mb-3">
+                    <a href="#" class="open-modal" data-image="assets/img/gallery/3.jpg" data-title="Gallery Image 3">
+                        <img src="assets/img/gallery/3.jpg" class="img-responsive" alt="Gallery Thumb">
+                    </a>
+                </div>
+                            <!-- Use col-3 for 4 images per row on all screen sizes -->
+                <div class="col-3 mb-3">
+                    <a href="#" class="open-modal" data-image="assets/img/gallery/4.jpg" data-title="Gallery Image 4">
+                        <img src="assets/img/gallery/4.jpg" class="img-responsive" alt="Gallery Thumb">
+                    </a>
+                </div>
+            </div><div class="row">                <!-- Use col-3 for 4 images per row on all screen sizes -->
+                <div class="col-3 mb-3">
+                    <a href="#" class="open-modal" data-image="assets/img/gallery/5.jpg" data-title="Gallery Image 5">
+                        <img src="assets/img/gallery/5.jpg" class="img-responsive" alt="Gallery Thumb">
+                    </a>
+                </div>
+                            <!-- Use col-3 for 4 images per row on all screen sizes -->
+                <div class="col-3 mb-3">
+                    <a href="#" class="open-modal" data-image="assets/img/gallery/6.jpg" data-title="Gallery Image 6">
+                        <img src="assets/img/gallery/6.jpg" class="img-responsive" alt="Gallery Thumb">
+                    </a>
+                </div>
+                            <!-- Use col-3 for 4 images per row on all screen sizes -->
+                <div class="col-3 mb-3">
+                    <a href="#" class="open-modal" data-image="assets/img/gallery/7.jpg" data-title="Gallery Image 7">
+                        <img src="assets/img/gallery/7.jpg" class="img-responsive" alt="Gallery Thumb">
+                    </a>
+                </div>
+                            <!-- Use col-3 for 4 images per row on all screen sizes -->
+                <div class="col-3 mb-3">
+                    <a href="#" class="open-modal" data-image="assets/img/gallery/8.jpg" data-title="Gallery Image 8">
+                        <img src="assets/img/gallery/8.jpg" class="img-responsive" alt="Gallery Thumb">
+                    </a>
+                </div>
+            </div><div class="row">                <!-- Use col-3 for 4 images per row on all screen sizes -->
+                <div class="col-3 mb-3">
+                    <a href="#" class="open-modal" data-image="assets/img/gallery/9.jpg" data-title="Gallery Image 9">
+                        <img src="assets/img/gallery/9.jpg" class="img-responsive" alt="Gallery Thumb">
+                    </a>
+                </div>
+                            <!-- Use col-3 for 4 images per row on all screen sizes -->
+                <div class="col-3 mb-3">
+                    <a href="#" class="open-modal" data-image="assets/img/gallery/1.jpg" data-title="Gallery Image 10">
+                        <img src="assets/img/gallery/1.jpg" class="img-responsive" alt="Gallery Thumb">
+                    </a>
+                </div>
+                            <!-- Use col-3 for 4 images per row on all screen sizes -->
+                <div class="col-3 mb-3">
+                    <a href="#" class="open-modal" data-image="assets/img/gallery/2.jpg" data-title="Gallery Image 11">
+                        <img src="assets/img/gallery/2.jpg" class="img-responsive" alt="Gallery Thumb">
+                    </a>
+                </div>
+                            <!-- Use col-3 for 4 images per row on all screen sizes -->
+                <div class="col-3 mb-3">
+                    <a href="#" class="open-modal" data-image="assets/img/gallery/3.jpg" data-title="Gallery Image 12">
+                        <img src="assets/img/gallery/3.jpg" class="img-responsive" alt="Gallery Thumb">
+                    </a>
+                </div>
+                    </div>
+        <p><a href="#" class="view-more-link">View More Gallery</a></p>
+    </div>
+</div>
+
+
+<style>
+    /* Modal styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* Adjusted for more visibility */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Adjusted for larger size */
+    max-width: 800px; /* Max width of the modal */
+    position: relative;
+}
+
+.modal-content img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.close-btn {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+</style>
+
+<!-- Modal Structure -->
+<div class="modal" id="imageModal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h5 class="modal-title" id="modalImageTitle">Gallery Image</h5>
+        <img id="modalImage" src="#" class="img-fluid" alt="Gallery Image">
+    </div>
+</div>
+    
+  
+
+<!-- Footer Copyright -->
+<div class="footer-copyright">
+    <div class="row">
+        <!-- Logo Section: Change order for mobile -->
+        <div class="col-md-2 order-1 order-md-1">
+            <a class="logo" href="index-2.html">
+                <img src="assets/img/logo_footer.png" width="211" height="auto" class="img-responsive" alt="Afaq Clinics">
+            </a>
+        </div>
+
+        <!-- Copyright Text: Display first on mobile, middle on desktop -->
+        <div class="col-md-6 order-3 order-md-2 text-center">
+            <p style="">&copy; Copyright 2026. All Rights Reserved.</p>
+        </div>
+
+        <!-- Navigation Menu: Display last on mobile, right-aligned on desktop -->
+        <div class="col-md-4 order-2 order-md-3">
+            <nav class="sm-menu text-center text-md-right">
+                <!-- <ul>
+                    <li><a href="#">Best Offers</a></li>
+                    <li><a href="#">FAQ's</a></li>
+                    <li><a href="career">Career</a></li>
+                    <li><a href="blogs">Blogs</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                </ul> -->
+                <h6 style="color:#fefefe;">Hyderabad, Telangana, India</h6>
+            </nav>
+        </div>
+    </div>
+</div>
+
+
+
+</footer>
+
+<script>
+// Get modal elements
+var modal = document.getElementById('imageModal');
+var modalImage = document.getElementById('modalImage');
+var modalTitle = document.getElementById('modalImageTitle');
+var closeBtn = document.getElementsByClassName('close-btn')[0];
+
+// Open the modal
+document.querySelectorAll('.open-modal').forEach(function(element) {
+    element.onclick = function(e) {
+        e.preventDefault();
+        var imageSrc = this.getAttribute('data-image');
+        var imageTitle = this.getAttribute('data-title');
+        modalImage.src = imageSrc;
+        modalTitle.textContent = imageTitle;
+        modal.style.display = 'block';
+    };
+});
+
+// Close the modal
+closeBtn.onclick = function() {
+    modal.style.display = 'none';
+};
+
+// Close the modal when clicking outside of it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = 'none';
+    }
+};
+</script>
+
+
+
+
+
+    
+<!-- jQuery (If not included in head) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Bootstrap Bundle JS (with Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+
+
+<!-- Additional JavaScript Files (Optional) -->
+<script src="path/to/your/custom.html"></script>
+
+
+
+
+
+
+</body>
+
+<!-- Mirrored from https://afaqclinics.com/ by HTTrack Website Copier/3.x [XR&CO], Sat, 03 Oct 2026 10:20:01 GMT -->
+</html>

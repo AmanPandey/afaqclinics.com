@@ -1,0 +1,36 @@
+# --- Database files & credentials (never commit) ---
+*.sql
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.db
+*.mdb
+*.dump
+.env
+.env.*
+!.env.example
+config.php
+db.php
+db_config.php
+database.php
+dbconnect.php
+*.pem
+*.key
+
+# --- Backups & archives ---
+*.bak
+*.zip
+*.tar.gz
+*.rar
+
+# --- Logs ---
+*.log
+error_log
+
+# --- Local tooling / OS ---
+.claude/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
