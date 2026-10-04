@@ -1,4 +1,5 @@
 # --- Database files & credentials (never commit) ---
+Database/
 *.sql
 *.sql.gz
 *.sqlite
