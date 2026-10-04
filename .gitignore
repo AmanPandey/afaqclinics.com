@@ -1,6 +1,10 @@
 # --- Database files & credentials (never commit) ---
-Database/
+# Database/ holds schema + content seed (pushed). Real data exports go in
+# Database/backups/ and are NEVER pushed.
+Database/backups/
 *.sql
+!Database/schema.sql
+!Database/seed_data.sql
 *.sql.gz
 *.sqlite
 *.sqlite3
